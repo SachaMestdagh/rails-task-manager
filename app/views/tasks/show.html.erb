@@ -1,0 +1,12 @@
+<div id="container">
+  <h1>Show Task</h1>
+
+
+  <h2><%= @task.completed %><%= @task.title %></h2>
+  <p><%= @task.details %></p>
+
+
+  <div id="links"><%= link_to "See all the tasks", tasks_path, :class => "new-task" %>
+  <%= link_to "Edit this task", edit_task_path(@task), :class => "new-task"  %>
+  <%= link_to "Delete", task_path(@task), method: :delete, :class => "new-task"  %> </div>
+</div>

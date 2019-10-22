@@ -1,0 +1,26 @@
+
+<div id="container">
+
+  <%= form_for task do |f| %>
+    <div id="question">
+    <%= f.label :title, "Task name" %>
+    </div>
+    <div id="answer">
+    <%= f.text_field :title  %>
+    </div>
+    <div id="question">
+    <%= f.label :details, "Task details" %>
+    </div>
+    <div id="answer">
+    <%= f.text_field :details  %>
+    </div>
+    <div id="markcomplete">
+    <% if showtask  %>
+    <%= f.label :completed, "mark as completed"  %>
+    <%= f.check_box :completed %>
+    <% end %>
+    </div>
+    <%= f.submit %>
+  <% end %>
+
+</div>

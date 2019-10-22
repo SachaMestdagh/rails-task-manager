@@ -1,0 +1,68 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#container {
+  width:500px;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.1);
+  border: solid 1px lightgray
+}
+
+h1 {
+
+}
+
+.new-task{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  text-decoration: none;
+  background-color: #bfbec0;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+}
+#icon {
+  text-align: left;
+}
+
+#btn {
+  text-decoration: none;
+  color: white;
+  background-color: #bfbec0;
+  padding: 10px;
+  width: 200px;
+  margin:auto;
+}
+
+#titlecolor {
+  color: white;
+  text-decoration: none;
+  background-color: #bfbec0;
+  padding: 10px;
+}
+
+#question {
+  text-decoration: none;
+  color: white;
+  background-color: #bfbec0;
+  padding: 10px;
+}
+
+#answer{
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+
